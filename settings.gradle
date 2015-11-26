@@ -1,0 +1,1 @@
+include ':app', ':animations4javademo', ':afinallibrary', ':animations4xmldemo', ':framebyframeanimationdemo', ':animationlayoutcontroller'

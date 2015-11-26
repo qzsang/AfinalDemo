@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AfinalDemo.iml" filepath="$PROJECT_DIR$/AfinalDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/afinallibrary/afinallibrary.iml" filepath="$PROJECT_DIR$/afinallibrary/afinallibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animationlayoutcontroller/animationlayoutcontroller.iml" filepath="$PROJECT_DIR$/animationlayoutcontroller/animationlayoutcontroller.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animations4javademo/animations4javademo.iml" filepath="$PROJECT_DIR$/animations4javademo/animations4javademo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/animations4xmldemo/animations4xmldemo.iml" filepath="$PROJECT_DIR$/animations4xmldemo/animations4xmldemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framebyframeanimationdemo/framebyframeanimationdemo.iml" filepath="$PROJECT_DIR$/framebyframeanimationdemo/framebyframeanimationdemo.iml" />
+    </modules>
+  </component>
+</project>

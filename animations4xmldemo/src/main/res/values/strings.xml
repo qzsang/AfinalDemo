@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Animations4XmlDemo</string>
+    <string name="tween_alpha">tween_alpha</string>
+    <string name="tween_translate">tween_translate</string>
+    <string name="tween_rotate">tween_rotate</string>
+    <string name="tween_scale">tween_scale</string>
+</resources>
