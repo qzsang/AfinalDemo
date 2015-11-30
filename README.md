@@ -1,7 +1,5 @@
 # AfinalDemo
-使用 as开发
-
-基于afinal 的一些demo
+基于afinal 的一些demo ,主要demo 如下：
 
  afinallibrary ：  afinal数据库使用范例
  
