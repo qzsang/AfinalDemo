@@ -12,3 +12,7 @@
   animations4xmldemo  ： tween动画  使用xml实现范例
   
   framebyframeanimationdemo : 帧动画范例
+
+webandjsandcssdemo ：   webView的js  与 android代码互调的范例
+
+graphdemo ： 图表范例
