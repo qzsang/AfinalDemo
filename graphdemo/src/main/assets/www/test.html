@@ -1,0 +1,114 @@
+<html>
+<head>
+  <style type="text/css">
+    body {
+    margin: 0px;
+    padding: 0px;
+    }
+    #container {
+    width : 90%;
+    height: 60%;
+    margin: 8px auto;
+    }
+  </style>
+</head>
+<body>
+<div id="container"></div>
+
+<script type="text/javascript" src="js/flotr2.min.js"></script>
+<script type="text/javascript">
+      (function () {
+
+        var
+          container = document.getElementById('container'),
+          start = (new Date).getTime(),
+          data, graph, offset, i;
+
+        // Draw a sine curve at time t
+        function animate (t) {
+
+          data = [];
+          offset = 2 * Math.PI * (t - start) / 10000;
+			
+          // Sample the sine function
+          for (i = 0; i < 4 * Math.PI; i += 0.2) {
+            data.push([i, Math.sin(i - offset)]);
+          }
+
+          // Draw Graph
+          graph = Flotr.draw(container, [ data ], {
+            yaxis : {
+              max : 10,
+              min : -10
+            }
+          });
+
+          // Animate
+          setTimeout(function () {
+            animate((new Date).getTime());
+          }, 50);
+        }
+
+        animate(start);
+      })();
+	  /*
+	  (function basic_pie(container) {
+
+    var
+    d1 = [
+        [0, 4]
+    ],
+        d2 = [
+            [0, 3]
+        ],
+        d3 = [
+            [0, 1.03]
+        ],
+        d4 = [
+            [0, 3.5]
+        ],
+        graph;
+
+    graph = Flotr.draw(container, [{
+        data: d1,
+        label: 'Comedy'
+    }, {
+        data: d2,
+        label: 'Action'
+    }, {
+        data: d3,
+        label: 'Romance',
+        pie: {
+            explode: 50
+        }
+    }, {
+        data: d4,
+        label: 'Drama'
+    }], {
+        HtmlText: false,
+        grid: {
+            verticalLines: false,
+            horizontalLines: false
+        },
+        xaxis: {
+            showLabels: false
+        },
+        yaxis: {
+            showLabels: false
+        },
+        pie: {
+            show: true,
+            explode: 6
+        },
+        mouse: {
+            track: true
+        },
+        legend: {
+            position: 'se',
+            backgroundColor: '#D2E8FF'
+        }
+    });
+})(document.getElementById("container"));*/
+    </script>
+</body>
+</html>

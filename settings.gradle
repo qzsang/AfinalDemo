@@ -1,1 +1,1 @@
-include ':app', ':animations4javademo', ':afinallibrary', ':animations4xmldemo', ':framebyframeanimationdemo', ':animationlayoutcontroller'
+include ':app', ':animations4javademo', ':afinallibrary', ':animations4xmldemo', ':framebyframeanimationdemo', ':animationlayoutcontroller', ':webandjsandcssdemo', ':graphdemo'

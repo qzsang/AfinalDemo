@@ -9,6 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/animations4xmldemo/animations4xmldemo.iml" filepath="$PROJECT_DIR$/animations4xmldemo/animations4xmldemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/framebyframeanimationdemo/framebyframeanimationdemo.iml" filepath="$PROJECT_DIR$/framebyframeanimationdemo/framebyframeanimationdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/graphdemo/graphdemo.iml" filepath="$PROJECT_DIR$/graphdemo/graphdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webandjsandcssdemo/webandjsandcssdemo.iml" filepath="$PROJECT_DIR$/webandjsandcssdemo/webandjsandcssdemo.iml" />
     </modules>
   </component>
 </project>
