@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void btnClick(View v){
-        bitmap();
+        dbTest();
     }
 
     //FinalBitmap 使用方法
@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity {
         user.setEmail("afinal@tsz.net");
         user.setName("qzsang");
         user.setRegisterDate(new Date());
+        db.save(user);
         List<User> userList = db.findAllByWhere(User.class,"name = 'qzsang'");
 
         txt.setText(userList.toString());

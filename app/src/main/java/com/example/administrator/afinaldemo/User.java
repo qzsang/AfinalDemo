@@ -1,9 +1,13 @@
 package com.example.administrator.afinaldemo;
 
+import net.tsz.afinal.annotation.sqlite.Id;
+import net.tsz.afinal.annotation.sqlite.Table;
+
 import java.util.Date;
 
+@Table(name = "user")
 public class User {
-
+    @Id(column="id")
     private int id;
     private String name;
     private String email;
